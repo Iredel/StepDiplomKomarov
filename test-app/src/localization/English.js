@@ -1,0 +1,62 @@
+export const English = {
+    sidebar: {
+        signOutBtn: 'Sign Out',
+        homeLnk: 'Home',
+        reportsLnk: 'Reports',
+        settingsLnk: 'Settings',
+    },
+    productsPage: {
+        title: 'Products',
+    },
+    reportsPage: {
+        title: 'Reports',
+    },
+    settingsPage: {
+        title: 'Settings',
+        languagePicker: 'Choose Language',
+        themePicker: 'Choose Theme',
+        dark: 'dark',
+        light: 'light',
+        english: 'English',
+        ukrainian: 'Ukrainian',
+    },
+    productsTable: {
+        productPhoto: 'photo',
+        productName: 'name',
+        productDescription: 'description',
+        productPrice: 'price',
+        actionsBtn: 'actions',
+        actionEdit: 'Edit',
+        actionDelete: 'Delete',
+        generateQrCodeBtn: 'Generate Qr-Code',
+        addProductBtn: 'Add new Product',
+        error: 'No product available',
+    },
+    productModal: {
+        closeBtn: 'Close',
+        photoUrl: 'Photo (Url)',
+        addMode: {
+            title: 'Add new product',
+            nameInput: 'Enter a name',
+            descriptionInput: 'Enter a description',
+            priceInput: 'Enter a price',
+            submitButton: 'Add',
+        },
+        editMode: {
+            title: 'Edit product',
+            nameInput: 'Enter a name',
+            descriptionInput: 'Enter a description',
+            priceInput: 'Enter a price',
+            submitButton: 'Edit',
+        },
+    },
+    reportsTable: {
+        productPhoto: 'photo',
+        buyer: 'buyer',
+        buyerEmail: 'email',
+        purchaseTime: 'purchase time',
+        productName: 'name',
+        productPrice: 'price',
+        error: 'No reports available',
+    },
+}
